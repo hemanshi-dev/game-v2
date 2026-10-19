@@ -10,7 +10,7 @@ import NotFound from "../pages/NotFound";
 
 export default function AppRoutes() {
   return (
-    <BrowserRouter basename="/react_project/game/v2">
+    <BrowserRouter basename="/">
       <Routes>
         <Route element={<PageContainer />}>
           <Route path="/" element={<Home />} />
